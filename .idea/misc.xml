@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/drawable/edtbg_layout.xml" value="0.2125" />
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/layout/activity_burger_page.xml" value="0.25" />
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/layout/activity_home_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/layout/activity_order_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/layout/activity_profile_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/layout/activity_proflie_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/Food/app/src/main/res/layout/activity_sushi_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/drawable/edtbg_layout.xml" value="0.2125" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/drawable/edtroundbg.xml" value="0.2125" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/layout/activity_burger_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/layout/activity_home_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/layout/activity_order_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/layout/activity_pizza_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dhruvisha/FoodsApp/app/src/main/res/layout/activity_sushi_page.xml" value="0.35260416666666666" />
+        <entry key="..\:/dhruvisha-5944/Food/app/src/main/res/drawable/round_cardview_bg_layout.xml" value="0.174" />
+        <entry key="..\:/dhruvisha-5944/Food/app/src/main/res/layout/activity_burger_page.xml" value="0.25885416666666666" />
+        <entry key="..\:/dhruvisha-5944/Food/app/src/main/res/layout/activity_home_page.xml" value="0.26875" />
+        <entry key="..\:/dhruvisha-5944/Food/app/src/main/res/layout/activity_pizza_detail.xml" value="0.17527173913043478" />
+        <entry key="..\:/dhruvisha-5944/Food/app/src/main/res/layout/activity_splash_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/dhruvisha-5944/FoodsApp/app/src/main/res/layout/activity_burger_page.xml" value="0.27291666666666664" />
+        <entry key="..\:/dhruvisha-5944/FoodsApp/app/src/main/res/layout/activity_home_page.xml" value="0.26875" />
+        <entry key="..\:/dhruvisha-5944/FoodsApp/app/src/main/res/layout/activity_main.xml" value="0.26875" />
+        <entry key="..\:/dhruvisha-5944/FoodsApp/app/src/main/res/layout/activity_order_page.xml" value="0.26875" />
+        <entry key="..\:/dhruvisha-5944/FoodsApp/app/src/main/res/layout/activity_pizza_detail.xml" value="0.25885416666666666" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/drawable/bg_layout.xml" value="0.144" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/drawable/cardview_bg.xml" value="0.1255" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/drawable/edtbg_layout.xml" value="0.1255" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/drawable/iconbg.xml" value="0.1255" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/drawable/round_bg_layout.xml" value="0.1" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/drawable/round_cardview_bg_layout.xml" value="0.1255" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/layout/activity_home_page.xml" value="0.21" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/dhruvisha-5944/app/src/main/res/layout/activity_order_page.xml" value="0.25" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_burger_page.xml" value="0.3625" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_certificate_splash_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_delicious_splash_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_home_page.xml" value="0.3625" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_login_page.xml" value="0.3625" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_order_page.xml" value="0.3625" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_payment_splash_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_pizza_detail.xml" value="0.3625" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_profile_page.xml" value="0.33" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_shipping_splash_page.xml" value="0.38697916666666665" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_sign_up_page.xml" value="0.3625" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_splash_screen.xml" value="0.38697916666666665" />
+        <entry key="..\:/dhruvisha/Food/app/src/main/res/layout/activity_sushi_page.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
