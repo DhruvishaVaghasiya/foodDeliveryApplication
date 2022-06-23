@@ -7,7 +7,7 @@
     android:background="@color/l_orange"
     android:orientation="vertical"
     android:padding="@dimen/_15sdp"
-    tools:context=".ShippingSplashPageActivity">
+    tools:context=".activity.ShippingSplashPageActivity">
 
     <ImageView
         android:layout_width="@dimen/_200sdp"
@@ -15,12 +15,12 @@
         android:src="@drawable/shipping"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/_60sdp"
-        android:tint="@color/orange"/>
+        app:tint="@color/orange" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delicious Food"
+        android:text="@string/fast_shipping"
         android:textSize="@dimen/_18sdp"
         android:layout_marginTop="@dimen/_18sdp"
         android:textColor="@color/grey"
@@ -30,7 +30,8 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_16sdp"
-        android:text="Dire  acute  insure  dolor  in  from resplendent  in  volcano  visit  dolores  for  fugit  of  customer"
+        android:text="@string/splash_line"
+        android:fontFamily="sans-serif"
         android:textColor="@color/grey"
         android:layout_gravity="center"
         android:textSize="@dimen/_16sdp"/>

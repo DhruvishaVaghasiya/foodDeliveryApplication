@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">foodsApp</string>
     <string name="splash_lines">Dire  acute  insure  dolor  in  resplendent  in  volcano  visit  dolores  for  fugit  of  customer</string>
+    <string name="search_for_food">Search for food</string>
+    <string name="mixed_pizza">Mixed Pizza</string>
+    <string name="fast_shipping">Fast Shipping</string>
+    <string name="splash_line">Dire acute insure dolor in from resplendent in volcano visit dolores for fugit of customer</string>
+    <string name="delicious_food">Delicious Food</string>
+    <string name="detailLines">A wholesome Combination Of Tossed Mushrooms,Olives And Sweet Corn</string>
 </resources>

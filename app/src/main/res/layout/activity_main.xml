@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:background="@color/l_orange"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <TextView
         android:id="@+id/txtView"
@@ -95,8 +95,8 @@
             android:layout_width="@dimen/_210sdp"
             android:layout_height="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_90sdp"
-            android:background="@drawable/round_bg_layout"
             android:text="get started"
+            android:background="@drawable/round_bg_layout"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp" />
 

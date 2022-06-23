@@ -7,7 +7,7 @@
     android:layout_marginTop="@dimen/_15sdp"
     android:orientation="vertical"
     android:layout_marginHorizontal="@dimen/_15sdp"
-    tools:context=".BurgerPageActivity">
+    tools:context=".activity.BurgerPageActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

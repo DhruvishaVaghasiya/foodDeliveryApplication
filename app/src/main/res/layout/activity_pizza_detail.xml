@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PizzaDetailActivity">
+    tools:context=".activity.PizzaDetailActivity">
 
 
     <ImageView
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_20sdp"
         android:layout_marginTop="@dimen/_8sdp"
-        android:text="A wholesome Combination Of Tossed Mushrooms,Olives And Sweet Corn"
+        android:text="@string/detailLines"
         android:textColor="#676464"
         android:textSize="@dimen/_15sdp" />
 

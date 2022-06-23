@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/_15sdp"
     android:orientation="vertical"
     android:paddingHorizontal="@dimen/_15sdp"
-    tools:context=".LoginPageActivity">
+    tools:context=".activity.LoginPageActivity">
 
 
     <ScrollView
@@ -49,7 +49,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:background="@drawable/edtbg_layout"
                 android:hint="Password"
-                android:inputType="numberPassword"
+                android:inputType="textPassword"
                 android:imeOptions="actionGo"
                 android:paddingHorizontal="@dimen/_10sdp" />
 

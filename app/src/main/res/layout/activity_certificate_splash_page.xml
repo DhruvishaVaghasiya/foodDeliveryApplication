@@ -7,7 +7,7 @@
     android:background="@color/l_orange"
     android:orientation="vertical"
     android:padding="@dimen/_15sdp"
-    tools:context=".CertificateSplashPageActivity">
+    tools:context=".activity.CertificateSplashPageActivity">
     <ImageView
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_200sdp"
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delicious Food"
+        android:text="Certificate Food"
         android:textSize="@dimen/_18sdp"
         android:layout_marginTop="@dimen/_18sdp"
         android:layout_gravity="center"
@@ -29,7 +29,8 @@
         android:layout_width="@dimen/_250sdp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_16sdp"
-        android:text="Dire  acute  insure  dolor  in  from resplendent  in  volcano  visit  dolores  for  fugit  of  customer"
+        android:text="@string/splash_line"
+        android:fontFamily="sans-serif"
         android:textColor="@color/grey"
         android:layout_gravity="center"
         android:textSize="@dimen/_16sdp"/>

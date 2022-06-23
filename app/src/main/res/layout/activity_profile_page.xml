@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/_15sdp"
     android:orientation="vertical"
     android:paddingHorizontal="@dimen/_15sdp"
-    tools:context=".ProfilePageActivity">
+    tools:context=".activity.ProfilePageActivity">
 
 
     <LinearLayout
@@ -91,6 +91,7 @@
         android:drawableTint="#716D6C"
         android:imeOptions="actionNext"
         android:inputType="number"
+        android:maxLength="10"
         android:layout_marginVertical="@dimen/_5sdp"
         android:paddingRight="@dimen/_75sdp"
         android:paddingLeft="@dimen/_10sdp"/>
@@ -103,10 +104,8 @@
         android:drawableTint="#716D6C"
         android:imeOptions="actionDone"
         android:inputType="number"
+        android:maxLength="6"
         android:layout_marginVertical="@dimen/_5sdp"
         android:paddingRight="@dimen/_75sdp"
         android:paddingLeft="@dimen/_10sdp"/>
-
-
-
 </LinearLayout>

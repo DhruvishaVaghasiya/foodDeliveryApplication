@@ -1,4 +1,4 @@
-package com.example.foodsapp;
+package com.example.foodsapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -10,12 +10,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.foodsapp.R;
+
 public class LoginPageActivity extends AppCompatActivity {
 
     TextView signUpTxt;
     AppCompatButton loginBtn;
-    EditText userEdt,passwordEdt;
-    String UserName,Password;
+    EditText userEdt, passwordEdt;
+    String UserName, Password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,15 +28,15 @@ public class LoginPageActivity extends AppCompatActivity {
     }
 
     private void initLoginView() {
-        signUpTxt=findViewById(R.id.signUpTxt);
-        loginBtn=findViewById(R.id.loginBtn);
-        userEdt=findViewById(R.id.userEdt);
-        passwordEdt=findViewById(R.id.passwordEdt);
+        signUpTxt = findViewById(R.id.signUpTxt);
+        loginBtn = findViewById(R.id.loginBtn);
+        userEdt = findViewById(R.id.userEdt);
+        passwordEdt = findViewById(R.id.passwordEdt);
 
         signUpTxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(LoginPageActivity.this,SignUpPageActivity.class);
+                Intent i = new Intent(LoginPageActivity.this, SignUpPageActivity.class);
                 startActivity(i);
             }
         });
@@ -45,19 +48,15 @@ public class LoginPageActivity extends AppCompatActivity {
 
                 if (UserName.isEmpty()) {
                     Toast.makeText(LoginPageActivity.this, "PLEASE ENTER YOUR USERNAME OR EMAIL", Toast.LENGTH_SHORT).show();
-                } else if (UserName.length() > 15) {
-                    Toast.makeText(LoginPageActivity.this, "ENTER CORRECT USERNAME OR EMAIL", Toast.LENGTH_SHORT).show();
-                }  else if ( UserName.length() < 6) {
-                    Toast.makeText(LoginPageActivity.this, "ENTER CORRECT USERNAME OR EMAIL", Toast.LENGTH_SHORT).show();
                 } else if (Password.isEmpty()) {
-                        Toast.makeText(LoginPageActivity.this, "PLEASE ENTER YOUR PASSWORD", Toast.LENGTH_SHORT).show();
-                    } else if (Password.length() <= 6) {
-                        Toast.makeText(LoginPageActivity.this, "ENTER CORRECT PASSWORD", Toast.LENGTH_SHORT).show();
-                    } else {
-                        Intent i = new Intent(LoginPageActivity.this, DeliciousSplashPage.class);
-                        startActivity(i);
-                    }
+                    Toast.makeText(LoginPageActivity.this, "PLEASE ENTER YOUR PASSWORD", Toast.LENGTH_SHORT).show();
+                } else if (Password.length() <= 6) {
+                    Toast.makeText(LoginPageActivity.this, "ENTER CORRECT PASSWORD", Toast.LENGTH_SHORT).show();
+                } else {
+                    Intent i = new Intent(LoginPageActivity.this, DeliciousSplashPage.class);
+                    startActivity(i);
                 }
+            }
         });
     }
 

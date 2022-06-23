@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/_15sdp"
     android:orientation="vertical"
     android:paddingHorizontal="@dimen/_15sdp"
-    tools:context=".SignUpPageActivity">
+    tools:context=".activity.SignUpPageActivity">
 
     <ScrollView
         android:layout_width="match_parent"

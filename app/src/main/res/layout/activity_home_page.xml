@@ -7,7 +7,7 @@
     android:layout_marginTop="@dimen/_15sdp"
     android:orientation="vertical"
     android:layout_marginHorizontal="@dimen/_15sdp"
-    tools:context=".HomePageActivity">
+    tools:context=".activity.HomePageActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -61,7 +61,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
-            android:hint="   Search for food"
+            android:hint="@string/search_for_food"
+            android:drawablePadding="@dimen/_7sdp"
             android:background="@drawable/edtbg_layout"
             android:drawableLeft="@drawable/search"
             android:drawableTint="#716D6C"
@@ -245,7 +246,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_20sdp"
                                 android:layout_marginTop="@dimen/_5sdp"
-                                android:text="Mixed Pizza"
+                                android:text="@string/mixed_pizza"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -323,7 +324,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_20sdp"
                                 android:layout_marginTop="@dimen/_5sdp"
-                                android:text="Mixed Pizza"
+                                android:text="@string/mixed_pizza"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -409,7 +410,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_20sdp"
                                 android:layout_marginTop="@dimen/_5sdp"
-                                android:text="Mixed Pizza"
+                                android:text="@string/mixed_pizza"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -487,7 +488,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_20sdp"
                                 android:layout_marginTop="@dimen/_5sdp"
-                                android:text="Mixed Pizza"
+                                android:text="@string/mixed_pizza"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -572,7 +573,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_20sdp"
                                 android:layout_marginTop="@dimen/_5sdp"
-                                android:text="Mixed Pizza"
+                                android:text="@string/mixed_pizza"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -650,7 +651,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_20sdp"
                                 android:layout_marginTop="@dimen/_5sdp"
-                                android:text="Mixed Pizza"
+                                android:text="@string/mixed_pizza"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -671,7 +672,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="@dimen/_20sdp"
+                                    android:layout_marginStart="@dimen/_20sdp"
                                     android:layout_marginTop="@dimen/_32sdp"
                                     android:background="@drawable/round_bg_layout"
                                     android:padding="@dimen/_6sdp"

@@ -1,4 +1,4 @@
-package com.example.foodsapp;
+package com.example.foodsapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import java.time.Instant;
+import com.example.foodsapp.R;
 
 public class MainActivity extends AppCompatActivity {
     AppCompatButton startBtn;
